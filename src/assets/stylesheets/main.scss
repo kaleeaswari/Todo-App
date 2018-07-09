@@ -1,0 +1,19 @@
+@import "customfont";
+@import "~normalize.css";
+@import "~toastr/toastr.scss";
+@import "components/todo";
+
+html {
+  font-size: 14px;
+}
+
+body {
+  background: #f0f0f0;
+}
+
+.app {
+  font-family: "open sans";
+  letter-spacing: .0125rem;
+  line-height: 1.125rem;
+  background: #f0f0f0;
+}
