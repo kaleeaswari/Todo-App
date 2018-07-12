@@ -75,8 +75,7 @@
   },
   "scripts": {
     "build": "webpack",
-    "buildp": "webpack -p --config webpack.production.config.js && sh scripts/wrap-package",
-    "dev": "webpack-dev-server --content-base src --inline --hot",
+    "dev": "webpack-dev-server --content-base src --inline --hot --open",
     "test": "jest",
     "testw": "jest --watch",
     "testc": "jest --coverage",

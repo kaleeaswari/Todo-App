@@ -88,12 +88,6 @@ module.exports = {
   devServer: {
     hot: true,
     contentBase: `${__dirname}/dist`,
-    proxy: {
-      '/api': {
-        target: 'http://localhost:3000/',
-        secure: false,
-      },
-    },
   },
   devtool: 'eval',
 }
